@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block title %}Prediction Page {% endblock %}
+{% block content %}
+<section class="text-gray-400 bg-gray-900 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-wrap -m-4">
+      <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+        <a class="block relative h-100 rounded overflow-hidden">
+          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src={{poster[0]}}>
+        </a>
+        <div class="mt-4">
+          <h2 class="text-white title-font text-lg font-medium">{{rec_movie[0]}}</h2>
+        </div>
+      </div>
+      <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+        <a class="block relative h-100 rounded overflow-hidden">
+          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src={{poster[1]}}>
+        </a>
+        <div class="mt-4">
+          <h2 class="text-white title-font text-lg font-medium">{{rec_movie[1]}}</h2>
+        </div>
+      </div>
+      <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+        <a class="block relative h-100 rounded overflow-hidden">
+          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src={{poster[2]}}>
+        </a>
+        <div class="mt-4">
+          <h2 class="text-white title-font text-lg font-medium">{{rec_movie[2]}}</h2>
+        </div>
+      </div>
+      <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+        <a class="block relative h-100 rounded overflow-hidden">
+          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src={{poster[3]}}>
+        </a>
+        <div class="mt-4">
+          <h2 class="text-white title-font text-lg font-medium">{{rec_movie[3]}}</h2>
+        </div>
+      </div>
+      <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+        <a class="block relative h-100 rounded overflow-hidden">
+          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src={{poster[4]}}>
+        </a>
+        <div class="mt-4">
+          <h2 class="text-white title-font text-lg font-medium">{{rec_movie[4]}}</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}
